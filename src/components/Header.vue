@@ -4,7 +4,7 @@
     <div class="centratura">
       <!-- logo -->
       <div id="logo">
-        <img src="../assets/img/dc-logo.png" alt="logo dc">
+        <img src="assets/img/dc-logo.png" alt="logo dc">
       </div>
 
       <!-- nav bar -->
