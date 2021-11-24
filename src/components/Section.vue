@@ -69,11 +69,11 @@ export default {
     background-color: black;
 
     section {
-      height: 140px;
+      height: 12vh;
       h2 {
         color: white;
         vertical-align: middle;
-        line-height: 140px;
+        line-height: 12vh;
       }
     }
   }
@@ -82,7 +82,7 @@ export default {
     background-color: #0282f9;
 
     section {
-      height: 155px;
+      height: 15vh;
       display: flex;
       width: 100%;
       justify-content: space-between;

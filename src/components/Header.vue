@@ -83,7 +83,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   header {
-    margin: 20px 0;
+    /* margin: 20px 0; */
+    height: 12vh;
     li {
       display: inline-block;
       a {

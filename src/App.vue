@@ -33,6 +33,7 @@ export default {
 <style lang="scss">
 #app {
   font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
 }
 
 * {
