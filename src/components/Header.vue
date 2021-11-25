@@ -84,7 +84,7 @@ export default {
 <style scoped lang="scss">
   header {
     /* margin: 20px 0; */
-    height: 12vh;
+    height: 100px;
     li {
       display: inline-block;
       a {
@@ -97,6 +97,15 @@ export default {
           background-color: gray;
         }
       }
+    }
+  }
+
+  #logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    img {
+      height: 80%;
     }
   }
     

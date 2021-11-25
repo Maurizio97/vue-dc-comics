@@ -33,7 +33,6 @@ export default {
 <style lang="scss">
 #app {
   font-family: Helvetica, Arial, sans-serif;
-  height: 100vh;
 }
 
 * {
@@ -42,6 +41,11 @@ export default {
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .centratura {
   width: 80%;
