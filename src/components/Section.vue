@@ -9,9 +9,10 @@
       </div>
       <!-- items comics -->
       <div id="container-comics-items">
-          <div class="centratura">
-            
-          </div>
+        <div class="centratura" id="cont-item-comic">
+          <ComicItems v-for=" comic, i in comicsCop" :key="i" :details="comic"/>
+        </div>
+        <div class="btn">Load More</div>
       </div>
       <!-- /items comics -->
     </div>
@@ -35,8 +36,13 @@
 </template>
 
 <script>
+import ComicItems from './Comicsitem.vue'
+
 export default {
   name: 'Main',
+    components: {
+    ComicItems,
+  },
   data() {
     return {
       comicsCop: [
@@ -165,9 +171,25 @@ export default {
   }
 
   #container-comics-items{
-    background-color: black;
-    // debug
-    height: 400px;
+    background-color: #1c1c1c;
+    padding-bottom: 20px;
+  }
+
+  #cont-item-comic {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    background-color: #0282f9;
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
   }
   // /sezione 1
 
