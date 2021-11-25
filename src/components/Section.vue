@@ -4,9 +4,13 @@
       <!-- jumbotron  -->
       <div id="jumbotron"></div>
       <!-- /jumbotron  -->
+
+      <!-- plate -->
       <div id="plate">
         CURRENT SERIES
       </div>
+      <!-- /plate -->
+
       <!-- items comics -->
       <div id="container-comics-items">
         <div class="centratura" id="cont-item-comic">
@@ -17,7 +21,7 @@
       <!-- /items comics -->
     </div>
 
-    <!-- colore di background -->
+    <!-- colore di background section 2-->
     <div id="background-sec-2">
       <div class="centratura">
         <!-- section 2 -->
@@ -30,7 +34,7 @@
         <!-- /section 2 -->
       </div>
     </div>
-    <!-- /colore di background -->
+    <!-- /colore di background section 2-->
 
   </div>
 </template>
@@ -145,10 +149,10 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped lang="scss">
   // sezione 1
-  #container-sec-1{
+  #container-sec-1 {
     position: relative;
   }
 
@@ -157,7 +161,7 @@ export default {
     background-image: url("../../public/assets/img/jumbotron.jpg");
   }
 
-  #plate{
+  #plate {
     background-color: #0282f9;
     line-height: 40px;
     vertical-align: middle;
@@ -170,7 +174,7 @@ export default {
     top:380px
   }
 
-  #container-comics-items{
+  #container-comics-items {
     background-color: #1c1c1c;
     padding-bottom: 20px;
   }
@@ -205,17 +209,20 @@ export default {
       width: 100%;
       justify-content: space-between;
 
-      .item{
+      .item {
         display: flex;
         align-items: center;
         height: 100%;
+
         img { 
           height: 50px;
           margin: 10px;
         }
-        &:last-child img{
+
+        &:last-child img {
           height: 35px;
         }
+
         a {
           color: white;
           text-decoration: none;

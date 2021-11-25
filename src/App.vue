@@ -2,10 +2,10 @@
   <div id="app">
     <!-- header -->
     <Header/>
+    
     <!-- main -->
     <main>
       <Section/>
-
     </main>
 
     <!-- footer -->

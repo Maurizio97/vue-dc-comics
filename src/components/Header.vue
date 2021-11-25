@@ -83,18 +83,22 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   header {
-    /* margin: 20px 0; */
     height: 100px;
+
     li {
       display: inline-block;
+
       a {
         text-decoration: none;
-        padding: 15px 20px;
+        padding: 37px 0;
+        margin: 0 20px;
         font-size: 15px;
         color: black;
         font-weight: bold;
+
         &.active {
-          background-color: gray;
+          color: #0282f9;
+          border-bottom: 5px solid #0282f9;
         }
       }
     }
@@ -104,6 +108,7 @@ export default {
     height: 100px;
     display: flex;
     align-items: center;
+    
     img {
       height: 80%;
     }

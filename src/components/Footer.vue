@@ -185,7 +185,7 @@ footer {
               color: grey;
               font-size: 12px;
             }
-        }
+          }
         }
       }
       
