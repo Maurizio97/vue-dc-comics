@@ -18,11 +18,10 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .item-comics {
         width: calc(100% / 6);
-        padding: 30px /* 20px 50px 20px */;
+        padding: 30px;
     }
     .cont-img{
         height: 210px;

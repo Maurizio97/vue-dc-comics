@@ -27,7 +27,7 @@
         <!-- section 2 -->
         <section>
             <div class="item" v-for="item, i in navMain" :key="i">
-              <img :src="item.image" :alt="image">
+              <img :src="require(`../assets/img/${item.image}`)" :alt="item.text">
               <a href="#">{{ item.text }}</a>
             </div>
         </section>
@@ -126,23 +126,23 @@ export default {
       navMain: [
         {
           text: "DIGITAL COMICS",
-          image: "assets/img/buy-comics-digital-comics.png",
+          image: "buy-comics-digital-comics.png",
         },
         {
           text: "DC MERCHANDISE",
-          image: "assets/img/buy-comics-merchandise.png",
+          image: "buy-comics-merchandise.png",
         },
         {
           text: "SUBSCRIPTION",
-          image: "assets/img/buy-comics-shop-locator.png",
+          image: "buy-comics-shop-locator.png",
         },
         {
           text: "COMIC SHOP LOCATOR",
-          image: "assets/img/buy-comics-subscriptions.png",
+          image: "buy-comics-subscriptions.png",
         },
         {
           text: "DC POWER VISA",
-          image: "assets/img/buy-dc-power-visa.svg",
+          image: "buy-dc-power-visa.svg",
         },
     ]}
   }
@@ -158,7 +158,7 @@ export default {
 
   #jumbotron {
     height: 400px;
-    background-image: url("../../public/assets/img/jumbotron.jpg");
+    background-image: url("../assets/img/jumbotron.jpg");
   }
 
   #plate {

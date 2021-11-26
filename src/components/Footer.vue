@@ -19,7 +19,7 @@
 
           <!-- logo footer -->
           <div id="logo-dc">
-            <img src="../../public/assets/img/dc-logo-bg.png" alt="logo dc" />
+            <!-- <img src="../../public/assets/img/dc-logo-bg.png" alt="logo dc" /> -->
           </div>
           <!-- /logo footer -->
 
@@ -154,7 +154,7 @@ footer {
 
 // footer up
 #background-img {
-  background-image: url("../../public/assets/img/footer-bg.jpg");
+  background-image: url("../assets/img/footer-bg.jpg");
   height: 80%;
 
   .centratura {
